@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Nerko One', cursive;
+    /*font-family: 'Sriracha', cursive;*/
+    font-size:xx-large;
+    color: rgb(13, 17, 13);
+}
+h2{
+    font-family: 'Nerko One', cursive;
+    font-size:x-large;
+    color: rgb(186, 93, 56);
+}
+h3{
+    font-family: 'Nerko One', cursive;
+    color: beige;
+}
+
+body{
+    background-color: gray;
+}
+table{
+    color: rgb(44, 134, 104);
+}
+h4{
+    color: rgb(246, 56, 63);
+}
+a:link{
+    color:rgb(246, 56, 63);
+}
