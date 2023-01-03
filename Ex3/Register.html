@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <center><h1>เเบบฝึกหัดที่3 : HTML Form</h1></center>
+    <center><h1>รหัสนักศึกษา 6440011029 ศุภณัฐ เพชรสุทธิ์</h1></center>
+    <center><h1>ฟอร์มลงทะเบียนศิษย์เก่าสาขาITและIS</h1></center>
+
+    <form action="https://www.example.com" method="post">
+        <label for="name">ชื่อ : </label>
+        <input type="text" name="customer_name">
+
+        <label for="lastname">นามสกุล : </label>
+        <input type="text" lastname="customer_lastname" >
+
+        <br><br>
+        <label for="id">รหัสนักศึกษา : </label>
+        <input type="id" name="id">
+
+        <br><br>
+        <label for="gender">เพศ : </label>
+        <input type="radio" name="gender"> ชาย
+        <input type="radio" name="gender"> หญิง
+
+        <br><br>
+        <label for="Year of admission">ปีการศึกษาที่เข้าศึกษา</label>
+        <input type="Year of admission" name="Year of admission"> 
+
+        <br><br>
+        <label for="address">ที่อยู่ : </label>
+        <textarea name="address" cols="30" rows="5"></textarea>
+        
+        <br><br>
+        <label for="email">Email : </label>
+        <input type="email" name="customer_email">
+
+        <br><br>
+        <label for="TelNo.">เบอร์โทรศัพท์ :</label>
+        <input type="text" name="TelNo.">
+
+        <br><br>
+        <label for="Major">สาขา : </label>
+        <select name="Major">
+            <option value="01">IT</option>
+            <option value="02">IS</option>
+        </select>
+
+        <br><br>
+        <label for="Job">อาชีพในปัจจุบัน :</label>
+        <input type="text" name="Job">
+
+        <br><br>
+        <label for="Company Name">ชื่อบริษัท :</label>
+        <input type="text" name="Company Name">
+
+        <br><br>
+        <label for="Company Address">ที่อยู่บริษัท :</label>
+        <textarea name="address" cols="30" rows="5"></textarea>
+
+        <br><br>
+        <label for="Job Type">ประเภทงาน :</label>
+        <input type="checkbox" name="Web Developer">Web Developer
+        <input type="checkbox" name="Digital Marketing">Digital Marketing
+        <input type="checkbox" name="SA">SA
+        <input type="checkbox" name="Graphic Design">Graphic Design
+
+        <br><br>
+        <label for="pic">รูปตนเอง</label>
+        <input type="file" name="ProfilePic">
+        
+        <br><br>
+        <input type="button" name="Submit" value="Submit">
+        <input type="button" name="Reset" value="Clear">
+    </form>
+    <br>
+    <a href="../index.html">HOME</a>
+</body>
+</html>
